@@ -7,7 +7,7 @@ import 'package:nba_app_data_api/model/team.dart';
 class HomePage extends StatelessWidget {
   HomePage({super.key});
 
-//read data from API
+//read data from 
   List<Team> teams = [];
 
   Future getTeams() async {
